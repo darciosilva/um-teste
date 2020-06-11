@@ -1,0 +1,5 @@
+print('##≈aumento em porcentos no seu salario≈##')
+salario = float(input('digite o seu salario R$'))
+porcento = float(input('digite quantos porcentos de almento você teve: '))
+aumento = salario+(salario*porcento/100)
+print('R${} de salario e {}% de aumento você tem R${}'.format(salario, porcento, aumento))
